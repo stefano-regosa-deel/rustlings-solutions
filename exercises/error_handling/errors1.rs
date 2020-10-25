@@ -6,7 +6,7 @@
 // this function to have.
 // Execute `rustlings hint errors1` for hints!
 
-pub fn generate_nametag_text(name: String) -> Result<String,String>  {
+pub fn generate_nametag_text(name: String) -> Result<String, String> {
   if name.len() > 0 {
     Ok(format!("Hi! My name is {}", name))
   } else {
