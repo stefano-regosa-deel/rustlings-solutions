@@ -8,7 +8,7 @@
 use std::num::ParseIntError;
 
 fn main() {
-    
+    let mut tokens = 100; 
     let pretend_user_input = "8";
 
     match total_cost(pretend_user_input) {
