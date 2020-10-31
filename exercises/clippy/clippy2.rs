@@ -1,13 +1,12 @@
-// clippy2.rs
+// clippy2.rustlings
 // Make me compile! Execute `rustlings hint clippy2` for hints :)
 
-// I AM NOT DONE
 
 fn main() {
     let mut res = 42;
     let option = Some(12);
-    if x in option {
+    if let Some(x) = option {
         res += x;
-    }
+    };
     println!("{}", res);
 }
