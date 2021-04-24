@@ -12,6 +12,6 @@ mod tests {
     #[test]
     fn you_can_assert() {
         let a = true;
-        assert!(a,true);
+        assert!(a);
     }
 }
